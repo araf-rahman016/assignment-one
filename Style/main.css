@@ -1,0 +1,132 @@
+/* CSS Font code */
+
+.inter-font-style{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.raleway-font-style{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+
+/* navigation style */
+nav button a{
+    text-decoration: none;
+    color: white;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+/* logo style */
+.logo{
+    color: #4E47FF;
+    font-size: 34px;
+}
+/* Sign up style */
+.signup{
+    background-color: #4E47FF;
+    height: 48px;
+    width: 132px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: bold;
+    border: none;
+}
+
+/* Stay focused button decoration */
+.stay-focused{
+      background-color: #4E47FF;
+      color: aliceblue3;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 36px;
+}
+.text-deco{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 12px 36px;
+    height: 34px;
+    width: 120px;
+}
+/* banner style */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 210px 152px 210px;
+}
+
+/* banner title */
+.banner-title{
+    font-size: 60px;
+    height: 152px;
+    width: 902;
+    width: bold;
+    text-align: center;   
+}
+/* torkari = banner image  */
+.torkari{
+background-image: url(../Assets/Hero-bg.png);
+height: 595px;
+width: 1413px;
+}
+
+/* class action title */
+.action-title{
+    font-size: 45px;
+    font-weight: bold;
+    height: 50px;
+    width: 517px;
+}
+
+/* class action paragraph */
+.action-p{
+    color: #25243280;
+    font-size: 24px;
+    font-weight: 400px;
+    height: 60px;
+    width: 517px;
+}
+
+/* class action button */
+.action-button{
+    height: 48px;
+    width: 229px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4E47FF;
+
+}
+/* action a */
+.action-a{
+    color: white;
+     text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.action-all{
+    display: flex;
+    justify-content: space-around;
+    margin: 116px 160px 0px 141px;
+}
+
+/* class action image */
+.action-img{
+    border: none;
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
